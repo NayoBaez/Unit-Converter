@@ -11,8 +11,9 @@ const gallonToLiter = 3.785411784;
 const kiloToPound = 2.204;
 const poundToKilo = 0.45359237;
 
-function placeHolder() {
-  inputEl.value = 10;
+inputEl.value = 10;
+
+function convertUnit() {
   let convertValue = inputEl.value;
 
   lengthEl.textContent = `${convertValue} meters = ${(
@@ -34,26 +35,8 @@ function placeHolder() {
   ).toFixed(2)} kilograms`;
 }
 
-placeHolder();
+convertUnit();
 
 convertBtn.addEventListener("click", function () {
-  let convertValue = inputEl.value;
-
-  lengthEl.textContent = `${convertValue} meters = ${(
-    convertValue * meterToFeet
-  ).toFixed(2)} feet | ${convertValue} feet = ${(
-    convertValue * feetToMeter
-  ).toFixed(2)} meters`;
-
-  volumeEl.textContent = `${convertValue} liters = ${(
-    convertValue * literToGallon
-  ).toFixed(2)} gallons | ${convertValue} gallons = ${(
-    convertValue * gallonToLiter
-  ).toFixed(2)} liters`;
-
-  massEl.textContent = `${convertValue} kilograms = ${(
-    convertValue * kiloToPound
-  ).toFixed(2)} pounds | ${convertValue} pounds = ${(
-    convertValue * poundToKilo
-  ).toFixed(2)} kilograms`;
+  convertUnit();
 });
