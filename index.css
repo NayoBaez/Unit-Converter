@@ -44,7 +44,7 @@ input {
 }
 
 button {
-  padding: 10px 33px;
+  padding: 10px 38px;
   border: none;
   border-radius: 5px;
   display: block;
@@ -69,4 +69,21 @@ h2 {
 
 p {
   color: #353535;
+}
+
+footer {
+  text-align: center;
+  font-size: 10px;
+  color: #5a537b;
+  margin-top: 15px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #5a537b;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #2077f6;
 }
