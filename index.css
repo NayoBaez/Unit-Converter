@@ -1,14 +1,11 @@
-html,
 body {
-  margin: 0;
-  padding: 0;
+  margin: 50px;
   background: #f9f7fe;
   font-family: "Inter", sans-serif;
 }
 
 .container {
   width: 550px;
-  height: 729px;
   display: block;
   margin: 0 auto;
   text-align: center;
