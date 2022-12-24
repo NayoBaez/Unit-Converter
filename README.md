@@ -2,7 +2,7 @@
 
 # UNIT CONVERTER
 
-This Unit Converter built with Raw Javascript, manipulates the DOM with every click on the button. The user is able to enter a new input and see the calculations for each unit individually. I created this app by participating on a solo challenge where only a figma template was provided. What I learned during the process is how to make my code DRY, since I initially had hard coded the formulas twice. 
+This Unit Converter built with Raw Javascript, manipulates the DOM with every click on the button. The user is able to enter a new input and see the calculations for each unit individually. I created this app by participating on a solo challenge where only a figma template was provided. What I learned during the process is how to make my code DRY and avoid repetition. 
 
 
 <img align="right" alt="portfolio" width="350" src="https://raw.githubusercontent.com/NayoBaez/Unit-Converter/main/Screenshot%20unit%20converter.png"></img>
