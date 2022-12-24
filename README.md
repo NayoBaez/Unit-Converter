@@ -1,11 +1,11 @@
-[![MasterHead](https://raw.githubusercontent.com/NayoBaez/Lead-Tracker/main/GITHUB%20README%20BANNERS%20LEADTRACKER.png)](https://nayobaez.com)
+[![MasterHead](https://raw.githubusercontent.com/NayoBaez/Unit-Converter/main/GITHUB%20README%20BANNER%20UNIT%20CONVERTER.png)](https://nayobaez.com)
 
 # UNIT CONVERTER
 
-This link saver & organizer helps you save time by storing your links onto your local storage with one click of a button. Developed in raw JavaScript using the LocalStorage() property to store the browsers data locally. The data is fetched from the Chrome API, turned into a string with JSON.stringify then parsed back into an array with the JSON.parse property and rendered out onto the DOM using a For loop.
+This Unit Converter built with Raw Javascript, manipulates the DOM with every click on the button. The user is able to enter a new input and see the calculations for each unit individually. I created this app by participating on a solo challenge where only a figma template was provided. What I learned during the process is how to make my code DRY, since I initially had hard coded the formulas twice. 
 
 
-<img align="right" alt="portfolio" width="350" src="https://raw.githubusercontent.com/NayoBaez/Lead-Tracker/main/Lead%20Tracker.png"></img>
+<img align="right" alt="portfolio" width="350" src="https://raw.githubusercontent.com/NayoBaez/Unit-Converter/main/Screenshot%20unit%20converter.png"></img>
 
 ## Tech Stack
 
@@ -28,5 +28,5 @@ HTML, CSS & Javascript
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/nayobaezfeliz)
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/nayobaez)
 [![instagram](https://img.shields.io/badge/instagram-DE3C7C?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/nayobaez)
-[![project](https://img.shields.io/badge/project_link-96C43A?style=for-the-badge&logo=tp-link&logoColor=white)](#)
+[![project](https://img.shields.io/badge/project_link-96C43A?style=for-the-badge&logo=tp-link&logoColor=white)](https://luminous-sprite-c4eb84.netlify.app/)
 
